@@ -8,6 +8,11 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+
+}
 
 .header {
   height: 100vh;
@@ -89,7 +94,7 @@
 .two-columns__brief {
   width: 175px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   line-height: 1.2;
 }
 
@@ -102,6 +107,11 @@
 
 .two-columns__paragraph {
   display: flex;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 .two-columns__span-accent{
@@ -111,6 +121,7 @@
 
 .digits {
   position: relative;
+  padding-top: 100px;
 }
 
 .section-title {
@@ -129,6 +140,7 @@
   line-height: 32px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 20px;
 }
 
 .table {
@@ -138,7 +150,7 @@
   align-items: stretch;
   margin-left: auto;
   margin-right: auto;
-  bottom: 100px;
+  margin-bottom: 100px;
   justify-content: space-between;
 }
 
@@ -149,7 +161,7 @@
 }
 
 .table__text {
-  top: 20px;
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -235,7 +247,7 @@
 .table__theme_dark {
   color: white;
   z-index: 2;
-  padding-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -318,6 +330,8 @@
   color: white;
   text-decoration: none;
   list-style-type:none;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .column-link {
