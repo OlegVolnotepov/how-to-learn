@@ -8,10 +8,10 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .header {
@@ -117,7 +117,6 @@
 .two-columns__span-accent{
   font-weight: bold;
 }
-
 
 .digits {
   position: relative;
@@ -285,7 +284,6 @@
 }
 
 .footer {
-
   min-height: 350px;
   background-color: #1f1f1f;
   position: relative;
@@ -341,11 +339,6 @@
   font-weight: normal;
   color: white;
   padding: 0;
-}
-
-
-.footer__social-icon {
-
 }
 
 .logo__place_footer {
