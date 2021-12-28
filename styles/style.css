@@ -9,7 +9,9 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-* {
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -343,6 +345,7 @@ p {
   list-style-type: none;
   margin-top: 20px;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 .footer__column-link {
@@ -371,5 +374,5 @@ p {
 }
 
 .footer__social-icon {
-  margin-right: 10px;
+  margin-right: ;
 }
