@@ -6,9 +6,5 @@
   top: 0;
   right: -210px;
   background-size: cover;
-  background-image: url("/how-to-learn/images/kaufman-triangle.svg");
-  animation-name: rotation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  background-image: url("../../../images/kaufman-triangle.svg");
 }
